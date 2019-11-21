@@ -1,0 +1,62 @@
+.viewContainer{    
+    margin-left: 250px!important;
+    margin-right: 10px!important;
+    margin-top: 10px!important;
+}
+
+.viewContainerNotExpanded{    
+    margin-left: 60px!important;
+    margin-right: 0px!important;
+    margin-top: 0px!important;
+    background-color: #eff3f7!important; 
+}
+
+.MenuBackGround {
+    background-color: rgb(55, 78, 109)!important;
+    color: white!important;
+}
+
+.IconColor {
+    color: white!important
+}
+
+.backgroundContainer{
+    background-color: #f5f6f7!important;
+}
+
+.backgroundContainerMini{
+    background-color: #f7f7f7!important
+}
+
+.listMargin{
+    margin-bottom: 20px!important;
+}
+  
+.bg {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+  }
+.bg img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+  }
+
+  .about {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+  }
