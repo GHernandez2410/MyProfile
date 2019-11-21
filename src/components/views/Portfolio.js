@@ -67,8 +67,10 @@ class Portfolio extends React.Component {
                                                 <List.Item>
                                                     <List.Icon name='github' size='large' verticalAlign='middle' />
                                                     <List.Content>
-                                                        <List.Header as='a'>This webpage</List.Header>
-                                                        <List.Description as='a'>ReactJs + Redux + GoogleApi + Semantic UI + Consuming the EmailSender microservice</List.Description>
+                                                        <div target="_blank" onClick={() => window.open(('https://github.com/GHernandez2410/MyProfile'))}>
+                                                            <List.Header as='a'>This webpage</List.Header>
+                                                            <List.Description as='a'>ReactJs + Redux + GoogleApi + Semantic UI + Consuming the EmailSender microservice</List.Description>
+                                                        </div>
                                                     </List.Content>
                                                 </List.Item>
                                                 <List.Item>
@@ -98,8 +100,10 @@ class Portfolio extends React.Component {
                                                 <List.Item>
                                                     <List.Icon name='github' size='large' verticalAlign='middle' />
                                                     <List.Content>
-                                                        <List.Header as='a'>EmailSender WebService Rest</List.Header>
-                                                        <List.Description as='a'>Java 8 + SpringBoot</List.Description>
+                                                        <div target="_blank" onClick={() => window.open(('https://github.com/GHernandez2410/EmailSenderMicroService'))}>
+                                                            <List.Header as='a'>EmailSender WebService Rest</List.Header>
+                                                            <List.Description as='a'>Java 8 + SpringBoot</List.Description>
+                                                        </div>
                                                     </List.Content>
                                                 </List.Item>
                                             </List>
