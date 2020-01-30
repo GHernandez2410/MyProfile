@@ -2,7 +2,7 @@ import React from 'react';
 import { Responsive, Segment } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 
-import Background from '../../utils/images/background.jpg';
+import Background from '../../utils/images/computer.jpg';
 import '../../style/View.css';
 
 class Home extends React.Component {
@@ -20,7 +20,7 @@ class Home extends React.Component {
                             <Segment basic  mobile={16} tablet={16} computer={16}> 
                                 <Link to={'/about'} >
                                     <div className='bg' >
-                                        <img src={Background}  alt='a'/>
+                                        <img src={Background} style={{ height: window.innerHeight, width: window.innerWidth }} />
                                     </div>
                                 </Link>
                             </Segment> 
